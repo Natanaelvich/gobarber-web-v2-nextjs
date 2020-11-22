@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -6,9 +6,7 @@ export const Container = styled.div`
   justify-content: center;
   height: 100vh;
   width: 100vw;
-
   flex-direction: column;
-
   > div {
     display: flex;
     flex-direction: row;
@@ -24,7 +22,6 @@ export const Container = styled.div`
       border-radius: 6px;
     }
   }
-
   form {
     label {
       font-size: 20px;
@@ -36,7 +33,6 @@ export const Container = styled.div`
       padding: 12px;
       border-radius: 6px;
     }
-
     button {
       margin-left: 12px;
       padding: 12px 20px;
@@ -57,7 +53,6 @@ export const List = styled.ul`
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.75);
-
   li {
     font-size: 26px;
     color: #fff;

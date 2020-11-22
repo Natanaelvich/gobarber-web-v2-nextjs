@@ -80,6 +80,6 @@ export const Content = styled.div`
 
 export const Background = styled.div`
   flex: 1;
-  background: url('/bg-signin.svg') no-repeat center;
+  background: url('/bg-signin.png') no-repeat center;
   background-size: cover;
 `;

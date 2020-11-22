@@ -26,6 +26,8 @@ export default function SingnIn() {
   const hanleSingnIn = useCallback(
     async (data: { email: string; password: string }) => {
       try {
+        console.log(process.env.NEXT_PUBLIC_API_KEY);
+        console.log(process.env);
         formRef.current?.setErrors({});
         const schema = Yup.object().shape({
           email: Yup.string()
@@ -69,7 +71,7 @@ export default function SingnIn() {
     <Container>
       <Content>
         <AnimationContainer>
-          <Image src="/Logo.svg" alt="Gobarber" width="300" height="300" />
+          <Image src="/Logo.png" alt="Gobarber" width="230" height="134" />
 
           <Form ref={formRef} onSubmit={hanleSingnIn}>
             <h1>Faça seu logon</h1>
